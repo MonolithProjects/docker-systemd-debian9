@@ -15,7 +15,7 @@ jobs:
             uses: HurricanKai/Publish-Docker-Github-Action@master
             if: contains(github.ref, 'refs/tags/')
             with:
-              name: monolithprojects/systemd-debian10
+              name: monolithprojects/systemd-debian9
               username: monolithprojects
               password: ${{ secrets.TOKEN }}
               tagging: true
