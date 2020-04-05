@@ -7,7 +7,7 @@
 [![DockerHub](https://img.shields.io/docker/cloud/automated/monolithprojects/systemd-debian9?maxAge=2592000)](https://hub.docker.com/repository/docker/monolithprojects/systemd-debian9)
 
 Debian 9 docker image (based on actual base image version). Contains built in `ansible` user with sudo privileges.
-Dandy for using it with Molecule for Ansible role testing.
+Can be handy for using it with Molecule for Ansible role testing.
 
 ## Tags
 
